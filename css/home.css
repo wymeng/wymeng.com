@@ -1,0 +1,82 @@
+/* */
+
+
+#pic{
+	position:relative;
+	padding-top:160px;
+}
+
+#imgtop{
+	align:center;
+}
+@media (max-width: 1000px) {
+    /* line 548, /Volumes/Storage/michaelburtonray/Sites/ginlane/css/main.scss */
+    #imgtop {
+    width:80% 
+}
+}
+
+#introduction{
+	padding-top:30px;
+	color:#888; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:10px;
+	line-height:90%;
+}
+
+.header-container {
+	background: transparent;
+	-webkit-transition: opacity 1000ms ease 0s;
+	-moz-transition: opacity 1000ms ease 0s;
+	-ms-transition: opacity 1000ms ease 0s;
+	-o-transition: opacity 1000ms ease 0s;
+	transition: opacity 1000ms ease 0s;
+	-webkit-transform: translate3d(0, 0, 0);
+
+	z-index: 3;
+	top: 360px;
+	right: 0;
+	left: -27px;
+}
+
+.header-container div#main {
+	display: block;
+	text-align:center;
+	z-index: 4;
+	transform: none;
+	margin: 22px -20px 22px 0;
+}
+
+.header-container div#main > a {
+    box-sizing: border-box;
+    color:#333;
+	font-size:14px;
+    display: block;
+    padding-bottom: 5px;
+	margin:70px;
+    text-align: center;
+    text-decoration: none;
+	border-bottom: 3px solid  #FFF ;
+}
+
+.header-container div#main > a:hover, .header-container div#main > a.current {
+    color: #5BD698;
+	border-bottom: 3px solid #5BD698;
+}
+
+.header-container div#main > a {
+    border-top: none;
+    display: inline-block;
+}
+
+.header-container div#main > a:last-child {
+    border-right: none;
+}
+
+.footer{
+	width:100%;
+	text-align:center;
+	color:#008ac3; 
+	font-family:Verdana, Geneva, sans-serif; 
+	font-size:12px;
+}
